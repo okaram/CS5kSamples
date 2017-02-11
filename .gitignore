@@ -17,3 +17,9 @@ hs_err_pid*
 **/.classpath
 **/bin
 **/build
+
+**/.idea
+*.ipr
+*.iws
+
+
