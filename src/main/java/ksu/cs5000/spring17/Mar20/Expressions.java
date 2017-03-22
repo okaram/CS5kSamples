@@ -3,10 +3,10 @@ package ksu.cs5000.spring17.Mar20;
 
 public class Expressions {
 
-    public static interface IExpression {
-        public double getValue();
-        public String prefixToString();
-        public String infixToString();
+    interface IExpression {
+        double getValue();
+        String prefixToString();
+        String infixToString();
     }
 
     public static class Constant implements IExpression {
