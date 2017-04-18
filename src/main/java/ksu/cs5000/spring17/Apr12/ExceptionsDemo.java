@@ -29,7 +29,7 @@ public class ExceptionsDemo {
             throw new MyException2("Something terrible 2 happened");
     }
 
-    public static void main(String args[])  throws Exception{
+    public static void main(String args[])  {
         try {
             int  val= new Random().nextInt()%4;
             int a=Integer.MAX_VALUE/val;
@@ -41,7 +41,8 @@ public class ExceptionsDemo {
         }
         catch (MyBaseException e) {
             System.out.println("Somebody threw an exception "+e.getMessage());
-            throw e;
+            e.printStackTrace();
+//            throw e;
         }
         finally {
             System.out.println("Finally done");

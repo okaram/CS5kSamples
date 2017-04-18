@@ -3,7 +3,7 @@ apply plugin: 'eclipse'
 apply plugin: 'idea'
 apply plugin: 'application'
 
-mainClassName = "okaram.samples.HelloWorld"
+mainClassName = "ksu.cs5000.spring17.Apr12.ExceptionsDemo"
 
 repositories {
 	mavenCentral()
